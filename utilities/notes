@@ -1,0 +1,9 @@
+* floats issues: (in header), we have two solution: 
+ 1. Add `clear` class after directly the classes which floated
+ 2. Put the floated classes inside another container and style it by give it a `overflow: hidden;`
+
+* Centering element (hero image)
+  - position: absolute;
+  - top: 50%;
+  - left: 50%;
+  - transform: translate(-50%, -50%); 
