@@ -101,15 +101,32 @@ button {
 }
 .header .nav li {
   display: inline-block;
-  width: 80px;
   text-align: center;
 }
 .header .nav li a {
-  font-size: 14px;
+  font-size: 15px;
   color: white;
   text-decoration: none;
   display: block;
   padding: 30px 15px;
+}
+.header .nav li a.active:after,
+.header .nav li a:after {
+  content: '';
+  margin-top: 2px ;
+  display: block;
+  height: 3px;
+  background-color: #6195FF;
+  transition: width 0.5s;
+}
+.header .nav li a.active:after {
+  width: 100%;
+}
+.header .nav li a:after {
+  width: 0;
+}
+.header .nav li a:hover:after {
+  width: 100%;
 }
 
 /* --------------------- 3.1 Home Section ----------------------- */
