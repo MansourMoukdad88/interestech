@@ -61,11 +61,11 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 .header-content {
-  overflow: hidden; /* to solve float problem */
+  /*overflow: hidden;  to solve float problem */
 }
-/* .clear {
+.clear {
   clear: both;
-} */
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: montserrat, sans-serif;
@@ -73,7 +73,9 @@ h1, h2, h3, h4, h5, h6 {
 button {
   font-family: inherit;
 }
-
+a {
+  text-decoration: none;
+}
 
 /* --------------------------------------------------------------- */
 /*                          3- Sections */
@@ -99,19 +101,18 @@ button {
   list-style: none;
   text-align: right;
 }
-.header .nav li {
+.header .nav > li {
   display: inline-block;
   text-align: center;
 }
-.header .nav li a {
+.header .nav > li > a {
   font-size: 15px;
   color: white;
-  text-decoration: none;
   display: block;
   padding: 30px 15px;
 }
-.header .nav li a.active:after,
-.header .nav li a:after {
+.header .nav > li > a.active:after,
+.header .nav > li > a:after {
   content: '';
   margin-top: 2px ;
   display: block;
@@ -119,16 +120,38 @@ button {
   background-color: #6195FF;
   transition: width 0.5s;
 }
-.header .nav li a.active:after {
+.header .nav > li > a.active:after {
   width: 100%;
 }
-.header .nav li a:after {
+.header .nav > li > a:after {
   width: 0;
 }
-.header .nav li a:hover:after {
+.header .nav > li > a:hover:after {
   width: 100%;
 }
-
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  background-color: #6195FF;
+  width: 150px;
+  text-align: center;
+  left: -50%;
+  top: 70%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s , visibility 0.5s;
+}
+.dropdown-menu a {
+  color: #FFF;
+  display: block;
+  padding: 10px;
+}
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
 /* --------------------- 3.1 Home Section ----------------------- */
 .home {
   height: 100vh;
