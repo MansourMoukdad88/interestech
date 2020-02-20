@@ -400,6 +400,66 @@ a {
 .offer-item:hover .offer-item-title {
   color: #FFF;
 }
+
+/* --------------------- Service Section --------------------- */
+.service {
+  background-color: #f9f9f9;
+}
+.service-item {
+  width: 50%;
+  float: left;
+}
+.service-item .section-header {
+  text-align: left;
+}
+.service-item .section-header .line {
+  margin: 0 0 40px 0;
+}
+.service-item-desc {
+  padding-right: 20px;
+  color: #999;
+  line-height: 1.5;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.service-list {
+  list-style: none;
+}
+.service-list li {
+  margin-bottom: 10px;
+  color: #999;
+}
+.service-list li i {
+  border:  1px solid #76DC45;
+  color: #76DC45;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.service-item img {
+  width: 100%;
+  margin-top: 50px;
+}
+.service-bullets {
+  list-style: none;
+  text-align: center;
+}
+.service-bullets li {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+.service-bullets li.active {
+  background-color: #76DC45;
+}
+.service-bullets li:hover {
+  background-color: #76DC45;
+}
 /* --------------------- 3.5 Prices Section --------------------- */
 /* --------------------- 3.6 Team Section ----------------------- */
 /* --------------------- 3.7 Blog Page -------------------------- */
