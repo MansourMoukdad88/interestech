@@ -76,7 +76,25 @@ button {
 a {
   text-decoration: none;
 }
-
+.pd-y {
+  padding: 120px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-header .section-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section-header .line {
+  display: block;
+  width: 80px;
+  height: 5px;
+  margin: 0 auto 70px auto;
+  background-color: #6195FF;
+}
 /* --------------------------------------------------------------- */
 /*                          3- Sections */
 /* --------------------------------------------------------------- */
@@ -198,6 +216,38 @@ a {
 
 
 /* --------------------- 3.2 About Section ---------------------- */
+.about {
+
+}
+.about-content {
+  overflow: hidden;
+}
+.about-item {
+  width: 30%;
+  float: left;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  padding: 50px 25px;
+}
+.about-item.mg {
+  margin: 0 5%;
+}
+.about-item .icon {
+  color: #6195FF;
+  margin-bottom: 10px;
+}
+.about-item-title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.about-item-desc {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.about-item-link {
+  color: #6195FF;
+  text-transform: capitalize;
+}
 /* --------------------  3.3 Portfolio Section ------------------ */
 /* --------------------- 3.4 Services Section ------------------- */
 /* --------------------- 3.5 Prices Section --------------------- */
