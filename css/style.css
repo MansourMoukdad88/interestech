@@ -111,7 +111,8 @@ a {
   width: 80px;
   height: 5px;
   margin: 0 auto 70px auto;
-  background-color: #6195FF;
+  background-color: #76DC45
+  ;
 }
 /* --------------------------------------------------------------- */
 /*                          3- Sections */
@@ -153,7 +154,7 @@ a {
   margin-top: 2px ;
   display: block;
   height: 3px;
-  background-color: #6195FF;
+  background-color: #76DC45;
   transition: width 0.5s;
 }
 .header .nav > li > a.active:after {
@@ -170,7 +171,7 @@ a {
 }
 .dropdown-menu {
   position: absolute;
-  background-color: #6195FF;
+  background-color: #76DC45;
   width: 150px;
   text-align: center;
   left: -50%;
@@ -228,7 +229,7 @@ a {
   background-color: #FFF;
 }
 .home .btn-learn {
-  background-color: #6195FF;
+  background-color: #76DC45;
   color: #FFF;
 }
 
@@ -254,7 +255,7 @@ a {
   margin: 0 5%;
 }
 .about-item .icon {
-  color: #6195FF;
+  color: #76DC45;
   margin-bottom: 10px;
 }
 .about-item-title {
@@ -268,7 +269,7 @@ a {
   transition: color 0.5s;
 }
 .about-item-link {
-  color: #6195FF;
+  color: #76DC45;
   text-transform: capitalize;
 }
 
@@ -311,7 +312,7 @@ a {
   transform: translate(-50%, -50%);
 }
 .layer-content .category {
-  color: #6195FF;
+  color: #76DC45;
   text-transform: uppercase;
   display: block;
   margin-bottom: 5px;
@@ -344,7 +345,8 @@ a {
   width: 30px;
   height: 30px;
   line-height: 30px;
-  background-color: #6195FF;
+  background-color: #76DC45
+  ;
 }
 .portfolio-item:hover .layer-content-title,
 .portfolio-item:hover .layer-content a,
@@ -358,7 +360,46 @@ a {
 .portfolio-item img{
   width: 100%;
 }
+
+
 /* --------------------- 3.4 Services Section ------------------- */
+.offer {
+
+}
+.offer-content {
+  overflow: hidden;
+}
+.offer-item {
+  width: 30%;
+  float: left;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+  padding: 30px 15px 30px 70px;
+  position: relative;
+}
+.offer-item.mg {
+  margin: 0 5%;
+}
+.offer-item .icon {
+  position: absolute;
+  left: 15px;
+  top: 35px;
+  color: #76DC45;
+}
+.offer-item-title {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  transition: color 0.05s;
+}
+.offer-item-desc {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #999;
+}
+.offer-item:hover .offer-item-title {
+  color: #FFF;
+}
 /* --------------------- 3.5 Prices Section --------------------- */
 /* --------------------- 3.6 Team Section ----------------------- */
 /* --------------------- 3.7 Blog Page -------------------------- */
