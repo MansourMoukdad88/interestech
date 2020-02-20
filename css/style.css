@@ -685,5 +685,51 @@ a {
   color: #76DC45;
 }
 /* --------------------- 3.7 Blog Page -------------------------- */
+.blog {
+  background-color: #f9f9f9;
+}
+.blog-content {
+  overflow: hidden;
+}
+.blog-item {
+  width: 30%;
+  float: left;
+  background-color: #FFF;
+}
+.blog-item:hover {
+  opacity: 0.8;
+}
+.blog-item.mg {
+  margin: 0 5%;
+}
+.blog-item-img img{
+  width: 100%;
+}
+.blog-info {
+  padding: 20px;
+}
+.blog-list {
+  list-style: none;
+  margin: 10px 0;
+}
+.blog-list li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.blog-list li i {
+  color: #76DC45;
+}
+.blog-title {
+  font-weight: bold;
+  margin: 20px 0;
+}
+.blog-desc {
+  color: #999;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.blog-link {
+  color: #76DC45;
+}
 /* --------------------- 3.8 Contact Section -------------------- */
 /* --------------------- 3.9 Footer ----------------------------  */
