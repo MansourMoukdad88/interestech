@@ -460,6 +460,36 @@ a {
 .service-bullets li:hover {
   background-color: #76DC45;
 }
+
+/* --------------------- Numbers Section --------------------- */
+.numbers {
+  position: relative;
+  background-image: url(../Images/background/macKeyboard.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+.numbers-items {
+  overflow: hidden;
+  padding: 100px 0;
+}
+.number-item {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.number-item .icon {
+  color: #76DC45;
+  margin-bottom: 15px;
+}
+.number-item-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+}
+.number-item-text {
+  color: #FFF;
+}
 /* --------------------- 3.5 Prices Section --------------------- */
 /* --------------------- 3.6 Team Section ----------------------- */
 /* --------------------- 3.7 Blog Page -------------------------- */
