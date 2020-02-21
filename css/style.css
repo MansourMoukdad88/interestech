@@ -732,4 +732,96 @@ a {
   color: #76DC45;
 }
 /* --------------------- 3.8 Contact Section -------------------- */
+.contact {
+  background: #FFF;
+}
+.contact-content {
+  overflow: hidden;
+}
+.contact-content-items {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contact-content-item {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.contact-content-item.mg {
+  margin: 0 5%;
+}
+.contact-content-item i {
+  color: #76DC45;
+  font-size: 35px;
+}
+.contact-item-title {
+  margin: 20px 0 20px 0;
+}
+.contact-form {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 60px;
+}
+.contact-form-item > input {
+  width: 40%;
+  height: 30px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+.contact-form-item > textarea {
+  width: 40%;
+  height: 150px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background: #f9f9f9;
+
+}
+
+.contact .btn {
+  min-width: 160px;
+  padding: 15px 0;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contact .btn-send {
+  margin-top: 10px;
+  background-color: #76DC45;
+  color: #FFF;
+  height: 50px;
+}
 /* --------------------- 3.9 Footer ----------------------------  */
+.footer {
+  background: #1c1d21;
+  text-align: center;
+  padding: 60px 0;
+}
+.footer-links {
+  list-style: none;
+  margin: 20px 0;
+}
+.footer-links li {
+  display: inline-block;
+}
+.footer-links li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #76DC45;
+  color: #FFF;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+.footer-links li a i {
+  line-height: 50px;
+}
+.footer .copyright {
+  color: #999;
+  font-size: 15px;
+  text-transform: uppercase;
+}
